@@ -1,3 +1,5 @@
+run_analysis <- function(){
+
 ## Load package "dplyr"
 library(dplyr)
 
@@ -55,3 +57,4 @@ for(i in 1:30){
 
 tb2 <- tb2[,c(m,(m-1),(1:(m-2)))]
 tb2
+}
